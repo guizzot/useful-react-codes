@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "./styles.css";
-
 function Wait ({ delay = 1000, placeholder, ui }) {
   const [show, setShow] = React.useState(false)
 
